@@ -10,6 +10,7 @@ namespace PPROI.ComputationsAPI.Repository.PPROIRepo
     {
         public IEnumerable<Result> GetResults()
         {
+            //dummy data for now
             var res = new List<Result>
             {
                 new Result { EntityId = 1, RoomVolume = 10}
@@ -20,6 +21,7 @@ namespace PPROI.ComputationsAPI.Repository.PPROIRepo
 
         public IEnumerable<Result> GetResultById(int id)
         {
+            //dummy data for now
             var res = new List<Result>
             {
                 new Result { EntityId = 1, RoomVolume = 10}

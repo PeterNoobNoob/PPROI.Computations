@@ -12,7 +12,9 @@ namespace PPROI.ComputationsAPI.Controllers
     {
         private readonly ComputationsRepo _computationsRepo = new ComputationsRepo();
 
-        [Route("api/computations")]
+        //test comment
+        [HttpGet]
+        [Route("api/1.0/computations/sample")]
         public ActionResult <IEnumerable<Result>> GetComputations()
         {
             var comps = _computationsRepo.GetResults();
@@ -20,7 +22,8 @@ namespace PPROI.ComputationsAPI.Controllers
             return Ok(comps);
         }
 
-        [Route("api/computations/{id}")]
+        [HttpPost]
+        [Route("api/1.0/computations/sample")]
         public ActionResult<IEnumerable<Result>> GetComputationsById(int id)
         {
             var comps = _computationsRepo.GetResultById(id);
