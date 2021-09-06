@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/1.0/computations",
+      "launchUrl": "Computations",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "PPROI.ComputationsAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/1.0/computations",
+      "launchUrl": "Computations",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

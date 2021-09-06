@@ -25,7 +25,7 @@ namespace PPROI.ComputationsAPI.Repository
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Name=PPROIDB");
+                optionsBuilder.UseSqlServer("Name=PPROIDBConnections");
             }
         }
 
